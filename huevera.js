@@ -38,16 +38,16 @@ const PUNTOS_MAL = -5;
 let juegoTerminado = false;
 
 function cargarRecursos() {
-  this.load.image("huevera", "/imgs/huevera.png");
-  this.load.image("huevo", "/imgs/huevo.png");
-  this.load.image("fondo", "/imgs/fondo.jpg");
-  this.load.image("fondoHueveras", "/imgs/fondo_hueveras.jpg");
+  this.load.image("huevera", "imgs/huevera.png");
+  this.load.image("huevo", "imgs/huevo.png");
+  this.load.image("fondo", "imgs/fondo.jpg");
+  this.load.image("fondoHueveras", "imgs/fondo_hueveras.jpg");
 
-  this.load.audio("musicaFondo", "/sonidos/musica_fondo.mp3");
-  this.load.audio("sonidoAgarrar", "/sonidos/click.wav");
-  this.load.audio("sonidoCorrecto", "/sonidos/sonido_dejarHuevo.mp3");
-  this.load.audio("sonidoIncorrecto", "/sonidos/error.mp3");
-  this.load.audio("musicaGameOver", "/sonidos/gameover.mp3");
+  this.load.audio("musicaFondo", "sonidos/musica_fondo.mp3");
+  this.load.audio("sonidoAgarrar", "sonidos/click.wav");
+  this.load.audio("sonidoCorrecto", "sonidos/sonido_dejarHuevo.mp3");
+  this.load.audio("sonidoIncorrecto", "sonidos/error.mp3");
+  this.load.audio("musicaGameOver", "sonidos/gameover.mp3");
 }
 
 function iniciarEscena() {
